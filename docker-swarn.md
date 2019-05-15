@@ -1,8 +1,8 @@
-##A swarm is a group of machines that are running Docker and joined into a cluster 
+## A swarm is a group of machines that are running Docker and joined into a cluster 
 
 
 
-##Docker Swarm is a tool for Container Orchestration
+## Docker Swarm is a tool for Container Orchestration
 
 
 Let’s take an example
