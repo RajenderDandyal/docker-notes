@@ -1,2 +1,0 @@
-# docker-notes
-docker commands
