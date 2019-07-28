@@ -50,6 +50,7 @@ docker commands
 * : docker rm ContainerName/ID
 
 * : docker history ImageName/ID
+* : doker system prune  --- will remove all stoped container, images, build cache
 ————————————
 ## Volumes
 * : docker volume  //get information
