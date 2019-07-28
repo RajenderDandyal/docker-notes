@@ -31,7 +31,7 @@ docker commands
 ### Containers
 * : docker ps
 * : docker run
-* : docker start
+* : docker start -a
 * : docker stop
 * : docker ps
 * : docker run ImageName -port 3000:3000 --name myserver -it/-d
