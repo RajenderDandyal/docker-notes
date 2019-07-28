@@ -35,8 +35,10 @@ docker commands
 * : docker stop
 * : docker ps
 * : docker run ImageName -port 3000:3000 --name myserver -it/-d
-* : docker start ContainerName/ID
-* : docker stop ContainerName/ID
+* : docker run = docker create + docker start
+* : docker exec -it ContainerName/ID command/sh
+* : docker exec -it ContainerName/ID <command to run inside container>
+* : docker exec -it ContainerName/ID sh --- we get the container linux terminal outside of container
 
 * : docker pause ContainerName/ID
 * : docker unpause  ContainerName/ID
@@ -45,12 +47,14 @@ docker commands
 * : docker stats ContainerName/ID
 
 * : docker attach ContainerName/ID
-
+* : docker stop ContainerName/ID --- issues kill comand after 10secs
 * : docker kill ContainerName/ID
 * : docker rm ContainerName/ID
 
 * : docker history ImageName/ID
 * : doker system prune  --- will remove all stoped container, images, build cache
+* : docker logs ContainerName/ID --- prints all logs inside of that container
+
 ————————————
 ## Volumes
 * : docker volume  //get information
