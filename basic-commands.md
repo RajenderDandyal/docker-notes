@@ -55,6 +55,11 @@ docker commands
 * : doker system prune  --- will remove all stoped container, images, build cache
 * : docker logs ContainerName/ID --- prints all logs inside of that container
 
+* : docker build -f DockerFileName . ----- builds an image out of Dockerfile.dev ex.
+* : docker build . ----- builds an image out of Dockerfile default
+* : docker run --name MyJenkins1 -it id/name npm run test
+* : docker-compose up --build -----build is required when we update the compose file
+
 ————————————
 ## Volumes
 * : docker volume  //get information
