@@ -1,3 +1,7 @@
+# KUBERNATIS
+kubectl apply -f file.yaml
+kubectl get pods
+
 # docker-notes
 docker commands
 
