@@ -1,6 +1,11 @@
 # KUBERNATIS
-kubectl apply -f file.yaml
-kubectl get pods
+* kubectl apply -f file.yaml
+* kubectl get pods
+* kubectl exec it [pod-name] [cmd]
+* kubectl logs [pod-name]
+* kubectl describe pod [pod-name]
+* kubectl get deployments
+*kubectl rollout restart deployment [depl_name]
 
 # docker-notes
 docker commands
