@@ -6,6 +6,7 @@
 * kubectl describe pod [pod-name]
 * kubectl get deployments
 *kubectl rollout restart deployment [depl_name]
+* kubectl apply -f .     to apply multiple files in a folder
 
 # docker-notes
 docker commands
