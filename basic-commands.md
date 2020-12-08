@@ -1,3 +1,7 @@
+# Queing services
+* https://medium.com/better-programming/implementing-rabbitmq-with-node-js-93e15a44a9cc
+* https://medium.com/@stressed83/live-streaming-data-using-kafka-node-js-websocket-and-chart-js-8750acad549c
+
 # KUBERNATIS
 * kubectl apply -f file.yaml
 * kubectl get pods
